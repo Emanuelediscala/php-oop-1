@@ -23,7 +23,9 @@ class Movies
     }
 }
 }
-// INSERIMENTO VALORI TRAMITE COSTRUTTORE
+// ----------OGGETTO 1----------- 
+
+// INSERIMENTO VALORI TRAMITE COSTRUTTORE 
 $spiderman = new Movies(
     'Mario Rossi',
     2002,
@@ -37,3 +39,5 @@ $spiderman->setActors($actors);
 <!-- VISULIZZA A SCHERMO OGGETTTO 1 -->
 <h1>Spiderman</h1>
 <?php echo '<br>'."Anno d'uscita ".$spiderman->year; ?>
+
+<!------------ OGGETTO 2  --------->
