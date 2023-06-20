@@ -88,6 +88,8 @@ $spiderman -> setGenres($genres)
 </ul>
 <!-- METODO PER VISUALIZZARE INFO TRAMITE METODO -->
 <p><?php echo $spiderman->getInfo(); ?></p>
+<p><?php echo implode(', ', $spiderman->genres); ?></p>
+
 
 
 
